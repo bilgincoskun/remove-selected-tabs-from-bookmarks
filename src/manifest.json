@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Remove Selected Tabs from Bookmarks",
+    "version": "0.1",
+    "author": "Bilgin Coşkun",
+    "description": "An extension to remove selected tabs from bookmarks",
+    "homepage_url": "https://github.com/bilgincoskun/remove-selected-tabs-from-bookmarks",
+    "icons": {
+        "96": "icons/icon.svg"
+    },
+    "permissions": [
+        "bookmarks",
+        "tabs",
+        "menus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "strict_min_version": "63.0"
+        }
+    }
+}
